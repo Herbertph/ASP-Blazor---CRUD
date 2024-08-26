@@ -1,0 +1,32 @@
+﻿@page "/tasks"
+@using FullStack_CRUD.Pages.Models
+@code {
+    private List<TaskItem> tasks = new List<TaskItem>
+    {
+        new TaskItem { Id = 1, Title = "Task 1", Description = "Task 1 description", DueDate = DateTime.Now.AddDays(1), IsCompleted = false },
+        new TaskItem { Id = 2, Title = "Task 2", Description = "Task 2 description", DueDate = DateTime.Now.AddDays(2), IsCompleted = true },
+    };
+}
+
+<h3>Task List</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Due Date</th>
+            <th>Completed</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in tasks)
+        {
+            <tr>
+                <td>@task.Title</td>
+                <td>@task.Description</td>
+                <td>@task.DueDate.ToShortDateString()</td>
+                <td>@task.IsCompleted</td>
+            </tr>
+        }
+    </tbody>
+</table>
