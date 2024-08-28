@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fullstack-Crud")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+120133992c489dda337462e369f2208216931de9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8985b309072ee98de6fbbd81e17227c17ee7c7a9")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fullstack-Crud")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fullstack-Crud")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

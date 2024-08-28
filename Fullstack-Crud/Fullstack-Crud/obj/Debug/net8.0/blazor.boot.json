@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Fullstack-Crud",
   "resources": {
-    "hash": "sha256-4ewj6dYUQZzy01VKHP/TQJ/Nc/Gk4J0PDgMtSijlUdY=",
+    "hash": "sha256-LcnBdKVfMlwh4x0ARsWhHKV6YHpkgvy0MG9jtg8gjAc=",
     "jsModuleNative": {
       "dotnet.native.8.0.8.1r9hw20rp3.js": "sha256-juC5sA7gHTLXFEhAKgdM2/RavswpwCtDfjYGsAz2FXg="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-Gz8PyW2/fwihe5ul81OwmRUrU71r+KtbyRw6xlOGD+Q=",
       "netstandard.wasm": "sha256-jMTqIQzoDS810lyhZpMO5eEC36EzntXqSVn+2qwkOMQ=",
       "System.Private.CoreLib.wasm": "sha256-NFj5WE5VLP2LptZIRJCUIc1AMk06FmxpsSILfPISwAw=",
-      "Fullstack-Crud.wasm": "sha256-CUUrhTFaNOhm3/snehqaD2b1lUMZMFQyG3gjYVpYi+4="
+      "Fullstack-Crud.wasm": "sha256-6e/0NHJidF/HgWWLArIeMoUsjQCi0nPrF8oJg9kZ1l8="
     },
     "pdb": {
-      "Fullstack-Crud.pdb": "sha256-/20kIfIsddDff+fzG1VhrlFItsdh49mbzPW488xIeZc="
+      "Fullstack-Crud.pdb": "sha256-vuWZPL4E0Ee4LU+GOfutWD4PJ77UiUePJ0ZHo+0I0dg="
     }
   },
   "cacheBootResources": true,

@@ -11,6 +11,10 @@
       "RelativeMoniker": "D:0:0:{23C40F52-E2D0-433F-9847-5103E4947C6D}|Fullstack-Crud\\Fullstack-Crud.csproj|solutionrelative:fullstack-crud\\pages\\tasklist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{23C40F52-E2D0-433F-9847-5103E4947C6D}|Fullstack-Crud\\Fullstack-Crud.csproj|c:\\users\\herbert.parasio\\desktop\\asp-blazor-crud\\fullstack-crud\\fullstack-crud\\pages\\taskedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{23C40F52-E2D0-433F-9847-5103E4947C6D}|Fullstack-Crud\\Fullstack-Crud.csproj|solutionrelative:fullstack-crud\\pages\\taskedit.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{23C40F52-E2D0-433F-9847-5103E4947C6D}|Fullstack-Crud\\Fullstack-Crud.csproj|c:\\users\\herbert.parasio\\desktop\\asp-blazor-crud\\fullstack-crud\\fullstack-crud\\pages\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{23C40F52-E2D0-433F-9847-5103E4947C6D}|Fullstack-Crud\\Fullstack-Crud.csproj|solutionrelative:fullstack-crud\\pages\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -22,8 +26,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskEdit.razor",
+              "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\ASP-Blazor-CRUD\\Fullstack-Crud\\Fullstack-Crud\\Pages\\TaskEdit.razor",
+              "RelativeDocumentMoniker": "Fullstack-Crud\\Pages\\TaskEdit.razor",
+              "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\ASP-Blazor-CRUD\\Fullstack-Crud\\Fullstack-Crud\\Pages\\TaskEdit.razor",
+              "RelativeToolTip": "Fullstack-Crud\\Pages\\TaskEdit.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T18:21:03.112Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +49,7 @@
               "RelativeDocumentMoniker": "Fullstack-Crud\\Layout\\NavMenu.razor",
               "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\ASP-Blazor-CRUD\\Fullstack-Crud\\Fullstack-Crud\\Layout\\NavMenu.razor",
               "RelativeToolTip": "Fullstack-Crud\\Layout\\NavMenu.razor",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-26T14:55:29.594Z",
               "EditorCaption": ""
@@ -45,14 +62,14 @@
               "RelativeDocumentMoniker": "Fullstack-Crud\\Pages\\TaskList.razor",
               "ToolTip": "C:\\Users\\herbert.parasio\\Desktop\\ASP-Blazor-CRUD\\Fullstack-Crud\\Fullstack-Crud\\Pages\\TaskList.razor",
               "RelativeToolTip": "Fullstack-Crud\\Pages\\TaskList.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-26T11:25:05.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\herbert.parasio\\Desktop\\ASP-Blazor-CRUD\\Fullstack-Crud\\Fullstack-Crud\\Pages\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "Fullstack-Crud\\Pages\\Models\\TaskItem.cs",

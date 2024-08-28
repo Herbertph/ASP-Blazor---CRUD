@@ -1,0 +1,47 @@
+﻿@page "/tasks/edit/{id:int}"
+@using FullStack_CRUD.Pages.Models
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private TaskItem task = new TaskItem();
+
+    protected override void OnInitialized()
+    {
+        if (Id != 0)
+        {
+            // Aqui você normalmente buscaria a tarefa do banco de dados
+            task = new TaskItem { Id = Id, Title = "Sample Task", Description = "Sample Description", DueDate = DateTime.Now.AddDays(1), IsCompleted = false };
+        }
+    }
+
+    private void SaveTask()
+    {
+        // Salvar a tarefa (Adicionar ou Editar)
+        // Esta parte seria onde você chama sua API ou banco de dados
+    }
+}
+
+<h3>@(Id == 0 ? "Add Task" : "Edit Task")</h3>
+<EditForm Model="@task" OnValidSubmit="SaveTask">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label class="form-label">Title</label>
+        <InputText class="form-control" @bind-Value="task.Title" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Description</label>
+        <InputTextArea class="form-control" @bind-Value="task.Description" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Due Date</label>
+        <InputDate class="form-control" @bind-Value="task.DueDate" />
+    </div>
+    <div class="mb-3 form-check">
+        <InputCheckbox class="form-check-input" @bind-Value="task.IsCompleted" />
+        <label class="form-check-label">Completed</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+</EditForm>
